@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_a1224e03f1914e32904bed875ad68d6d618513ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="97e3259dcdaa9b33014a849f6d3bdbb4ef478383">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-crash-9.6.0_cc29f0ee352cdba733b5fa17c39d4f073acda66d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.0_25f8b5acae1ad46785d5e6a2109541f71f9ded53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.0_9e85a0648c3a309c1111d25caac9bf6e99e9fcf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_7d2cb0d83a1572d188105752382cace5e9a49baa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1eb72788fb65925ebf787f94a8512fcd928fc0f8">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_3791b800b3f498a014a2fd5f94e0dde96364c844.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_683595777440e3cc8d8f694b41596fe30ac1841a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_fed36776716ba32e84a9f181929357dcad77f26c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cf349bc1ddc57102db7b689542748d5dbb38f734">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_ad07a5fce88b88ec961ae3af47f0b54a36129887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_b7e9f1cb61e8d684183f72b76ee04e66b6dd5daf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_5c9588188b2b87e3b93177b5d33044a22ce5c2b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_ad204812bdb9e694d10eea196cf52bc5f9a56291.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="73699fb64ea3de4a43d0f5c37dc525a5e1341ca1">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-9.6.0_f85ac0f2e6d922f26a72d6266fd99c391c4e7483.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_51c700243c5325764eef63608ea854e5366157e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="53f7fbab5e6f4149eb5a1cdeabaeeeee11a84ebe">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-config-9.6.0_80ee3ec650b3c8a74791134cbdfe9e73b840e8f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.0_a7846ff5eee3eafa80c73f3460df3217c37110f3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_de4a98ac631b654a52ef278309f00ae6d1bc26ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_52f8bb62310ae87974e5ebcf8d89b2ae4169315e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-9.6.0_0e989af3f7aa833d0c5d051f0ed2bfd1b85b0c9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5c0e666c2c0548262763b6f694fa8df6440551a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_89cdc98df23a0eb2f37ff3983425f79f60fac1af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_6f38f0b5acde8c49a2efc4cd80ce529579605c38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_84ca36bf1b533a094e4284bd6623c44e37223f41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a93aa431de60b775c91158433f3c687f1d32cb9c">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-9.6.0_f5618a545c031b705f6280af6ae8f5c433c5ff63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-9.6.0_e6c8e82cb4170334e5fc9eb557a659d98b4dbeca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d39f676be8400123523882d189a1d84040d34339">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-9.6.0_77836913d6ba6ff7028a5c44dc74fd2c158610ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.0_aa5d6bd918fa9c9f9b73808d46f747313a90d038.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_0217dfb0345bcc7c7126dde6566f4e7fa9b8d3b6.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\ic_action_next_item.png",
+        "source": "C:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\res\\drawable-hdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\ic_action_previous_item.png",
+        "source": "C:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\ic_action_remove.png",
+        "source": "C:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\res\\drawable-hdpi\\ic_action_remove.png"
+    }
+]
