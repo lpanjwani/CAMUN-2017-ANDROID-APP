@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">783692926732-a2878jv7hfan6mvc7n4b8bkp2t1pn6h4.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://camun-2017-android-app.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">783692926732</string>
+    <string name="google_api_key" translatable="false">AIzaSyAyS2ofw_AfCorxZf38eKQqYuaURP5Mc3k</string>
+    <string name="google_app_id" translatable="false">1:783692926732:android:004852299a87617f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAyS2ofw_AfCorxZf38eKQqYuaURP5Mc3k</string>
+    <string name="google_storage_bucket" translatable="false">camun-2017-android-app.appspot.com</string>
+</resources>
