@@ -6,6 +6,8 @@ function onDeviceReady() {
     document.getElementById("downloadFile2").addEventListener("click", downloadFile2);
     document.getElementById("downloadFile3").addEventListener("click", downloadFile3);
     document.getElementById("downloadFile4").addEventListener("click", downloadFile4);
+    document.getElementById("downloadFile5").addEventListener("click", downloadFile5);
+    document.getElementById("downloadFile6").addEventListener("click", downloadFile6);
 }
 
 function downloadFile() {
@@ -46,6 +48,28 @@ function downloadFile4() {
    var fileTransfer = new FileTransfer();
    var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjc21YWThwMjlKdFk");
    var fileURL =  "///storage/emulated/0/CAMUN/UNODC.pdf";
+
+   fileTransfer.download(
+      uri, fileURL
+   )
+}
+
+function downloadFile5() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=ID_HERE");
+   var fileURL =  "///storage/emulated/0/CAMUN/ECOSOC.pdf";
+
+   fileTransfer.download(
+      uri, fileURL
+   )
+}
+
+function downloadFile6() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=ID_HERE");
+   var fileURL =  "///storage/emulated/0/CAMUN/UNSDG.pdf";
 
    fileTransfer.download(
       uri, fileURL
