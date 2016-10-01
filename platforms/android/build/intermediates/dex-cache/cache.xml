@@ -57,6 +57,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1eb72788fb65925ebf787f94a8512fcd928fc0f8">
+        <dex dex="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\pre-dexed\release\CordovaLib-unspecified-release_3791b800b3f498a014a2fd5f94e0dde96364c844.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Lavesh\Documents\GitHub\CAMUN-2017-ANDROID-APP\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
