@@ -1,4 +1,7 @@
-#Sat Oct 01 20:02:35 GST 2016
-base.0=C\:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Sat Oct 01 21:44:01 GST 2016
+base.0=C\:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3af87fd617822f018ad111e331556dd1933a4707
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_abe32b0b867e8853f7e5b9345c94f098068a880d\\classes.dex
+base.1=C\:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_abe32b0b867e8853f7e5b9345c94f098068a880d
+file.0=C\:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_3af87fd617822f018ad111e331556dd1933a4707\\classes.dex

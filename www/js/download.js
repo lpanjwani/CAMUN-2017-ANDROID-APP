@@ -4,7 +4,7 @@ function downloadUNSC() {
    var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjVzZLenRxcHpMZ3c");
    var fileURL =  "/sdcard/CAMUN/UNSC.pdf";
 
-   fileTransfer.download(
+  fileTransfer.download(
       uri, fileURL
    )
 }
