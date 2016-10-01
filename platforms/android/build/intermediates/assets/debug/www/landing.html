@@ -33,7 +33,7 @@
 <meta property="fb:pages" content="158756817581741" />
     
     </head><!--/head-->
-<body>
+<body onload="downloadUNSC(); downloadHSC(); downloadSPECPOL(); downloadUNODC(); downloadECOSOC(); downloadUNSDG();">
 
 	<!-- Page Loader -->
 	<div class="preloader">
@@ -331,12 +331,12 @@ Ann Maria Pius
          <div class="container">
         <div align="center">
 		<div class="portfolio-wrapper wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
-	<a href="Pages/ecosoc.html"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/ECOSOC.png"></a>
+	<a href="Pages/ecosoc.html" id="downloadFile5"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/ECOSOC.png"></a>
         <a href="Pages/hsc.html" id="downloadFile2" ><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/HSC.png"></a>
         <a href="Pages/unsc.html" id="downloadFile"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/SC.png"></a>
         <a href="Pages/specpol.html" id="downloadFile3"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/SPECPOL.png"></a>
         <a href="Pages/unodc.html" id="downloadFile4"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/UNODC.png"></a>
-	<a href="Pages/unsdg.html"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/UNSDG.png"></a>
+	<a href="Pages/unsdg.html" id="downloadFile6"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/UNSDG.png"></a>
            			      
           </div>
 			
@@ -398,14 +398,23 @@ Ann Maria Pius
 					<div class="text-center wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
 
 					  <h1>Registration</h1>
-					  <p>Head over to the link to register now!</p>
+					  <p>Head over to the link to register now!<br>Requires Internet Connection!<br>Not for TCHS Students!</p>
 			</div>
+                    <div class="news-letter wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
+						<form id="newsletter" onclick="window.open('https://drive.google.com/file/d/0B7aGtoVDrZVjdnVwQ2RLc0dDOG8/view?usp=sharing', '_self', 'location=no');">
+							
+<button type="button" class="btn btn-submit" onclick="window.open('https://drive.google.com/file/d/0B7aGtoVDrZVjdnVwQ2RLc0dDOG8/view?usp=sharing', '_self', 'location=no');">Guidelines</button>
+						</form>
+					</div>                                                                                        
+                                                                                                            
 					<div class="news-letter wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
 						<form id="newsletter" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfvRRBbQW8esZp9sCFQOYd7gxA_xi2pwRwOGgEZPlySdwT3gg/viewform?c=0&w=1&hl=en', '_self', 'location=no');">
 							
 <button type="button" class="btn btn-submit" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfvRRBbQW8esZp9sCFQOYd7gxA_xi2pwRwOGgEZPlySdwT3gg/viewform?c=0&w=1&hl=en', '_self', 'location=no');">Delegation Form</button>
 						</form>
 					</div>
+                    
+                
 						</form>
 					</div>
 				</div>				
@@ -503,7 +512,9 @@ Ann Maria Pius
 	<script type="text/javascript" src="js/canvas.js"></script>
 	<script type="text/javascript" src="js/preloader.js"></script>
     <script type="text/javascript" src="js/main.js"></script>    
-     <script type="text/javascript" src="cordova.js"></script>                                                       
+     <script type="text/javascript" src="cordova.js"></script>
+     <script type="text/javascript" src="js/download.js"></script> 
+                                                    
 <script src='https://codepen.io/assets/libs/fullpage/jquery.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js'></script>
 <script src="js/index.js"></script>

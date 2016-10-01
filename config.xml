@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.cambridgemun" version="0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.cambridgemun" version="0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>CAMUN 2017</name>
     <description>
         Founded in 2008, CAMUN, organised by the Cambridge High School (Abu Dhabi), is one of the foremost MUN clubs in the UAE.
@@ -17,7 +17,9 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-intent href="cdvfile:*" />
     <icon src="www/images/logo.png" />
+    <access origin="cdvfile://*"/>
     <platform name="android">
     <allow-intent href="market:*" />
     </platform>

@@ -92,11 +92,11 @@ public class InAppBrowser extends CordovaPlugin {
     private WebView inAppWebView;
     private EditText edittext;
     private CallbackContext callbackContext;
-    private boolean showLocationBar = false;
-    private boolean showZoomControls = false;
+    private boolean showLocationBar = true;
+    private boolean showZoomControls = true;
     private boolean openWindowHidden = false;
-    private boolean clearAllCache = true;
-    private boolean clearSessionCache = true;
+    private boolean clearAllCache = false;
+    private boolean clearSessionCache = false;
     private boolean hadwareBackButton = true;
     private boolean mediaPlaybackRequiresUserGesture = false;
     private boolean shouldPauseInAppBrowser = false;

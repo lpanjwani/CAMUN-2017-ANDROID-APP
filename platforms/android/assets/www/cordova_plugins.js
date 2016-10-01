@@ -1,31 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
-        "id": "cordova-plugin-file-transfer.FileTransferError",
-        "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
-        "pluginId": "cordova-plugin-file-transfer",
-        "clobbers": [
-            "window.FileTransferError"
-        ]
-    },
-    {
-        "id": "cordova-plugin-file-transfer.FileTransfer",
-        "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
-        "pluginId": "cordova-plugin-file-transfer",
-        "clobbers": [
-            "window.FileTransfer"
-        ]
-    },
-    {
         "id": "cordova-plugin-file.DirectoryEntry",
         "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
         "pluginId": "cordova-plugin-file",
@@ -199,6 +174,31 @@ module.exports = [
         "runs": true
     },
     {
+        "id": "cordova-plugin-file-transfer.FileTransferError",
+        "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
+        "pluginId": "cordova-plugin-file-transfer",
+        "clobbers": [
+            "window.FileTransferError"
+        ]
+    },
+    {
+        "id": "cordova-plugin-file-transfer.FileTransfer",
+        "file": "plugins/cordova-plugin-file-transfer/www/FileTransfer.js",
+        "pluginId": "cordova-plugin-file-transfer",
+        "clobbers": [
+            "window.FileTransfer"
+        ]
+    },
+    {
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
+    },
+    {
         "id": "cordova.plugins.diagnostic.Diagnostic",
         "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
         "pluginId": "cordova.plugins.diagnostic",
@@ -210,11 +210,11 @@ module.exports = [
 module.exports.metadata = 
 // TOP OF METADATA
 {
+    "cordova-plugin-compat": "1.0.0",
+    "cordova-plugin-file": "4.3.1-dev",
+    "cordova-plugin-file-transfer": "1.6.0",
     "cordova-plugin-inappbrowser": "1.5.0",
     "cordova-plugin-whitelist": "1.2.2",
-    "cordova-plugin-compat": "1.0.0",
-    "cordova-plugin-file-transfer": "1.6.0",
-    "cordova-plugin-file": "4.3.1-dev",
     "cordova.plugins.diagnostic": "3.2.1"
 };
 // BOTTOM OF METADATA

@@ -1,4 +1,0 @@
-#Fri Sep 30 16:00:38 GST 2016
-base.0=C\:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Lavesh\\Documents\\GitHub\\CAMUN-2017-ANDROID-APP\\platforms\\android\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex
