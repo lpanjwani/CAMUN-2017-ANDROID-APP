@@ -19,8 +19,9 @@
     <allow-intent href="geo:*" />
     <allow-intent href="cdvfile:*" />
     <icon src="www/images/logo.png" />
-    <access origin="cdvfile://*"/>
+    <access origin="cdvfile://*" />
     <platform name="android">
-    <allow-intent href="market:*" />
+        <allow-intent href="market:*" />
     </platform>
+    <plugin name="cordova-plugin-firebase" spec="~0.1.14" />
 </widget>

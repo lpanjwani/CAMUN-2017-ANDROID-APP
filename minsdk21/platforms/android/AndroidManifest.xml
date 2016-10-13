@@ -14,13 +14,20 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:host="cambridgemun.org" android:path="/app" android:scheme="https" />
+                <data android:host="www.cambridgemun.org" android:path="/app" android:scheme="https" />
+                <data android:scheme="camun" />
             </intent-filter>
-            <intent-filter android:autoVerify="true">
+            <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:host="www.cambridgemun.org" android:path="/app" android:scheme="https" />
+                <data android:scheme="camun" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:host=" " android:pathPrefix="/" android:scheme=" " />
             </intent-filter>
         </activity>
         <receiver android:name="cordova.plugins.Diagnostic$LocationProviderChangedReceiver">
