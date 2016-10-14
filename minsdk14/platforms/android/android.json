@@ -31,6 +31,10 @@
                         {
                             "xml": "<feature name=\"LaunchMyApp\"><param name=\"android-package\" value=\"nl.xservices.plugins.LaunchMyApp\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"HockeyApp\"><param name=\"android-package\" value=\"com.zengularity.cordova.hockeyapp.HockeyApp\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -43,7 +47,20 @@
                             "count": 2
                         }
                     ],
-                    "/manifest/application": [],
+                    "/manifest/application": [
+                        {
+                            "xml": "<activity android:name=\"net.hockeyapp.android.FeedbackActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"net.hockeyapp.android.UpdateActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<activity android:name=\"net.hockeyapp.android.LoginActivity\" />",
+                            "count": 1
+                        }
+                    ],
                     "/manifest/application/activity": [
                         {
                             "xml": "<intent-filter><action android:name=\"android.intent.action.VIEW\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.BROWSABLE\" /><data android:scheme=\"camun\" /></intent-filter>",
@@ -51,6 +68,16 @@
                         },
                         {
                             "xml": "<intent-filter><action android:name=\"android.intent.action.VIEW\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.BROWSABLE\" /><data android:host=\" \" android:pathPrefix=\"/\" android:scheme=\" \" /></intent-filter>",
+                            "count": 1
+                        }
+                    ],
+                    "/manifest": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
                             "count": 1
                         }
                     ]
@@ -84,6 +111,9 @@
             "ANDROID_SCHEME": " ",
             "ANDROID_HOST": " ",
             "ANDROID_PATHPREFIX": "/",
+            "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova-plugin-hockeyapp": {
             "PACKAGE_NAME": "org.cambridgemun"
         }
     },
@@ -294,6 +324,14 @@
             "clobbers": [
                 "window.plugins.launchmyapp"
             ]
+        },
+        {
+            "id": "cordova-plugin-hockeyapp.HockeyApp",
+            "file": "plugins/cordova-plugin-hockeyapp/www/hockeyapp.js",
+            "pluginId": "cordova-plugin-hockeyapp",
+            "clobbers": [
+                "hockeyapp"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -302,6 +340,7 @@
         "cordova-plugin-file-transfer": "1.6.0",
         "cordova-plugin-inappbrowser": "1.5.0",
         "cordova-plugin-whitelist": "1.2.2",
-        "cordova-plugin-customurlscheme": "4.2.0"
+        "cordova-plugin-customurlscheme": "4.2.0",
+        "cordova-plugin-hockeyapp": "2.2.2"
     }
 }

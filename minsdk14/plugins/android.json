@@ -25,6 +25,9 @@
             "ANDROID_HOST": " ",
             "ANDROID_PATHPREFIX": "/",
             "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova-plugin-hockeyapp": {
+            "PACKAGE_NAME": "org.cambridgemun"
         }
     },
     "dependent_plugins": {

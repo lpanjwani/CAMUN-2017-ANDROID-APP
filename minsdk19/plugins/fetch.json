@@ -72,14 +72,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova.plugins.diagnostic": {
-        "source": {
-            "type": "registry",
-            "id": "cordova.plugins.diagnostic"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-customurlscheme": {
         "source": {
             "type": "registry",
@@ -89,5 +81,13 @@
         "variables": {
             "URL_SCHEME": "camun"
         }
+    },
+    "cordova-plugin-hockeyapp": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-hockeyapp@latest"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
