@@ -190,15 +190,6 @@ module.exports = [
         ]
     },
     {
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
         "id": "cordova-plugin-customurlscheme.LaunchMyApp",
         "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
         "pluginId": "cordova-plugin-customurlscheme",
@@ -213,6 +204,15 @@ module.exports = [
         "clobbers": [
             "hockeyapp"
         ]
+    },
+    {
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -221,10 +221,10 @@ module.exports.metadata =
     "cordova-plugin-compat": "1.0.0",
     "cordova-plugin-file": "4.3.1-dev",
     "cordova-plugin-file-transfer": "1.6.0",
-    "cordova-plugin-inappbrowser": "1.5.0",
     "cordova-plugin-whitelist": "1.2.2",
     "cordova-plugin-customurlscheme": "4.2.0",
-    "cordova-plugin-hockeyapp": "2.2.2"
+    "cordova-plugin-hockeyapp": "2.2.2",
+    "cordova-plugin-inappbrowser": "1.5.0"
 };
 // BOTTOM OF METADATA
 });
