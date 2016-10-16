@@ -49,10 +49,6 @@
                     ],
                     "/manifest/application": [
                         {
-                            "xml": "<receiver android:name=\"cordova.plugins.Diagnostic$LocationProviderChangedReceiver\"><intent-filter><action android:name=\"android.location.PROVIDERS_CHANGED\" /></intent-filter></receiver>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<activity android:name=\"net.hockeyapp.android.FeedbackActivity\" />",
                             "count": 1
                         },
@@ -62,6 +58,10 @@
                         },
                         {
                             "xml": "<activity android:name=\"net.hockeyapp.android.LoginActivity\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<receiver android:name=\"cordova.plugins.Diagnostic$LocationProviderChangedReceiver\"><intent-filter><action android:name=\"android.location.PROVIDERS_CHANGED\" /></intent-filter></receiver>",
                             "count": 1
                         }
                     ],
@@ -112,9 +112,6 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "org.cambridgemun"
         },
-        "cordova.plugins.diagnostic": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
         "cordova-plugin-customurlscheme": {
             "URL_SCHEME": "camun",
             "ANDROID_SCHEME": " ",
@@ -126,6 +123,9 @@
             "PACKAGE_NAME": "org.cambridgemun"
         },
         "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova.plugins.diagnostic": {
             "PACKAGE_NAME": "org.cambridgemun"
         }
     },
@@ -321,14 +321,6 @@
             ]
         },
         {
-            "id": "cordova.plugins.diagnostic.Diagnostic",
-            "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
-            "pluginId": "cordova.plugins.diagnostic",
-            "clobbers": [
-                "cordova.plugins.diagnostic"
-            ]
-        },
-        {
             "id": "cordova-plugin-customurlscheme.LaunchMyApp",
             "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
             "pluginId": "cordova-plugin-customurlscheme",
@@ -352,6 +344,14 @@
                 "cordova.InAppBrowser.open",
                 "window.open"
             ]
+        },
+        {
+            "id": "cordova.plugins.diagnostic.Diagnostic",
+            "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
+            "pluginId": "cordova.plugins.diagnostic",
+            "clobbers": [
+                "cordova.plugins.diagnostic"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -359,9 +359,9 @@
         "cordova-plugin-file": "4.3.1-dev",
         "cordova-plugin-file-transfer": "1.6.0",
         "cordova-plugin-whitelist": "1.2.2",
-        "cordova.plugins.diagnostic": "3.2.1",
         "cordova-plugin-customurlscheme": "4.2.0",
         "cordova-plugin-hockeyapp": "2.2.2",
-        "cordova-plugin-inappbrowser": "1.5.0"
+        "cordova-plugin-inappbrowser": "1.5.0",
+        "cordova.plugins.diagnostic": "3.2.2"
     }
 }

@@ -1077,4 +1077,3 @@ var Diagnostic = (function(){
 });
 
 module.exports = new Diagnostic();
-

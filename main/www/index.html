@@ -24,7 +24,7 @@
 <meta property="og:description" content="Founded in 2008, CAMUN, organised by the Cambridge High School (Abu Dhabi), is one of the foremost MUN clubs in the UAE." />  
     
 </head>
-<body onload="requestPermissionRS(); requestPermissionWS(); onDeviceReady();">
+<body onload="requestPermissionWS(); requestPermissionRS(); onDeviceReady();">
 
   <!-- preloader -->
   <div id="preloader">
@@ -49,7 +49,7 @@
   </header>
   <!-- /navbar -->
 
-  
+
 
   <!-- intro section -->
   <section id="intro" class="active">
@@ -90,9 +90,9 @@
                   <a href="landing.html#news-letter" class="btn btn-default btn-lg shadow" class="btn btn-default btn-lg shadow" >Registration!</a><!-- subscribe button -->
                    <a href="landing.html#recent-works" class="btn btn-default btn-lg shadow" class="btn btn-default btn-lg shadow">Committees</a>
                     <a href="landing.html" class="btn btn-theme btn-lg shadow" class="btn btn-theme btn-lg shadow">Continue</a>
-                    
+
                 </div>
-                  
+
               </div>
             </div>
               <br>
@@ -101,7 +101,7 @@
         </div>
       </div>
     </div>
-      
+
   </section>
   <!-- /intro section -->
 
@@ -118,11 +118,58 @@
 <script src='assets/js/static2.js'></script>
 <script src='assets/js/static3.js'></script>
     <!-- Cordova -->
-    <script type="text/javascript" src="cordova.js"></script>    
-    <script type="text/javascript" src="js/deviceready.js"></script>
-    <script type="text/javascript" src="js/diagnostic.js"></script>
-    <script type="text/javascript" src="js/hockeyapp.js"></script>
-     
-    </body>
+<script type="text/javascript" src="js/diagnostic.js"></script>
+<script type="text/javascript" src="js/deviceready.js"></script>
+<script type="text/javascript" src="js/hockeyapp.js"></script>
+<script type="text/javascript" src="cordova.js"></script>
 
+<script type="text/javascript">
+function requestPermissionRS(){
+    cordova.plugins.diagnostic.requestRuntimePermission(function(status){
+        switch(status){
+            case cordova.plugins.diagnostic.runtimePermissionStatus.GRANTED:
+                console.log("Permission granted (or already granted) - call the plugin");
+                // call SQLite plugin
+                break;
+            case cordova.plugins.diagnostic.runtimePermissionStatus.DENIED:
+                console.log("Permission denied - ask again");
+                alert("We really require this to function properly!. I'll ask again...");
+                requestPermission();
+                break;
+            case cordova.plugins.diagnostic.runtimePermissionStatus.DENIED_ALWAYS:
+                console.log("Permission permanently denied");
+                alert("Well that's it, we're dead Jim");
+                navigator.app.exitApp();
+                break;
+        }
+    }, function(error){
+        console.error("The following error occurred: "+error);
+    }, cordova.plugins.diagnostic.runtimePermission.READ_EXTERNAL_STORAGE);
+}
+
+function requestPermissionWS(){
+    cordova.plugins.diagnostic.requestRuntimePermission(function(status){
+        switch(status){
+            case cordova.plugins.diagnostic.runtimePermissionStatus.GRANTED:
+                console.log("Permission granted (or already granted) - call the plugin");
+                // call SQLite plugin
+                break;
+            case cordova.plugins.diagnostic.runtimePermissionStatus.DENIED:
+                console.log("Permission denied - ask again");
+                alert("Come on Buddy, we really need this. Please grant them & Thank you in advanced.I'll ask again...");
+                requestPermission();
+                break;
+            case cordova.plugins.diagnostic.runtimePermissionStatus.DENIED_ALWAYS:
+                console.log("Permission permanently denied");
+                alert("Well that's it, we're dead Jim");
+                navigator.app.exitApp();
+                break;
+        }
+    }, function(error){
+        console.error("The following error occurred: "+error);
+    }, cordova.plugins.diagnostic.runtimePermission.WRITE_EXTERNAL_STORAGE);
+}
+
+</script>
+</body>
 </html>

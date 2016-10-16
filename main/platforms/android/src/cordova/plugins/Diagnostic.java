@@ -41,9 +41,13 @@ import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.content.BroadcastReceiver;
 import android.content.IntentFilter;
+import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
+import android.location.LocationProvider;
 import android.net.Uri;
 import android.os.Build;
+import android.os.Bundle;
 import android.util.Log;
 
 import android.content.Context;
@@ -53,6 +57,7 @@ import android.provider.Settings;
 import android.net.wifi.WifiManager;
 
 import android.support.v4.app.ActivityCompat;
+import java.lang.SecurityException;
 
 /**
  * Diagnostic plugin implementation for Android
@@ -722,7 +727,7 @@ public class Diagnostic extends CordovaPlugin{
      * @param key
      * @param value
      */
-    private static void addBiDirMapEntry(Map<String, String> map, String key, String value){
+    private static void addBiDirMapEntry(Map map, Object key, Object value){
         map.put(key, value);
         map.put(value, key);
     }
