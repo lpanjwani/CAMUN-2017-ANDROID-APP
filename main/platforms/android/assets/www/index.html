@@ -118,10 +118,11 @@
 <script src='assets/js/static2.js'></script>
 <script src='assets/js/static3.js'></script>
     <!-- Cordova -->
-<script type="text/javascript" src="js/diagnostic.js"></script>
-<script type="text/javascript" src="js/deviceready.js"></script>
-<script type="text/javascript" src="js/hockeyapp.js"></script>
 <script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/deviceready.js"></script>    
+<script type="text/javascript" src="js/diagnostic.js"></script>
+<script type="text/javascript" src="js/hockeyapp.js"></script>
+
 
 <script type="text/javascript">
 function requestPermissionRS(){
@@ -169,7 +170,6 @@ function requestPermissionWS(){
         console.error("The following error occurred: "+error);
     }, cordova.plugins.diagnostic.runtimePermission.WRITE_EXTERNAL_STORAGE);
 }
-
 </script>
 </body>
 </html>
