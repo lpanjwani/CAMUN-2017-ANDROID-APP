@@ -21,8 +21,6 @@
 buildscript {
     repositories {
         mavenCentral()
-        jcenter()
-        maven { url 'https://dl.bintray.com/android/android-tools/' }
     }
 
     dependencies {

@@ -16,15 +16,23 @@
 <link rel='stylesheet' href='assets/css/style.css'> <!-- template style -->
 <link rel='stylesheet' href='assets/css/color2.css'> <!-- template color -->
 <link rel='stylesheet' href='assets/css/custom.css'> <!-- custom style -->
+  <!-- Cordova -->
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script> 
     
-<!-- Facebook -->
-<meta property="og:title" content="Cambridge Model United Nations" />
-<meta property="og:url" content="https://cambridgemun.org" />
-<meta property="og:image" content="https://cambridgemun.org/images/Banner" />  
-<meta property="og:description" content="Founded in 2008, CAMUN, organised by the Cambridge High School (Abu Dhabi), is one of the foremost MUN clubs in the UAE." />  
+<script type="text/javascript" charset="utf-8">
+function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
+
+function onDeviceReady() {
+        console.log(cordova.file);
+    }
+    
+
+</script>    
     
 </head>
-<body>
+<body onload="onLoad();">
 
   <!-- preloader -->
   <div id="preloader">
@@ -105,8 +113,7 @@
     
     <!-- Cordova -->
 <script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="js/deviceready.js"></script>   
-    
+
     </body>
 
 </html>
