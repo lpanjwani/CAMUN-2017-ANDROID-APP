@@ -213,6 +213,14 @@ module.exports = [
         "clobbers": [
             "hockeyapp"
         ]
+    },
+    {
+        "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+        "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
+        "pluginId": "cordova-plugin-customurlscheme",
+        "clobbers": [
+            "window.plugins.launchmyapp"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -224,7 +232,8 @@ module.exports.metadata =
     "cordova-plugin-inappbrowser": "1.5.0",
     "cordova-plugin-whitelist": "1.3.0",
     "cordova.plugins.diagnostic": "3.2.2",
-    "cordova-plugin-hockeyapp": "2.2.2"
+    "cordova-plugin-hockeyapp": "2.2.2",
+    "cordova-plugin-customurlscheme": "4.2.0"
 };
 // BOTTOM OF METADATA
 });
