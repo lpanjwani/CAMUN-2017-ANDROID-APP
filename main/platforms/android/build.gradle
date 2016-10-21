@@ -23,6 +23,7 @@ buildscript {
     repositories {
         mavenCentral()
         jcenter()
+        maven { url 'http://dl.bintray.com/android/android-tools' }
     }
 
     // Switch the Android Gradle plugin version requirement depending on the
@@ -38,8 +39,9 @@ buildscript {
 // Allow plugins to declare Maven dependencies via build-extras.gradle.
 allprojects {
     repositories {
-        mavenCentral();
+        mavenCentral()
         jcenter()
+        maven { url 'http://dl.bintray.com/android/android-tools' }
     }
 }
 
