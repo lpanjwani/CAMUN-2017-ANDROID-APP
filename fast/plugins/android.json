@@ -22,9 +22,6 @@
         "cordova.plugins.diagnostic": {
             "PACKAGE_NAME": "org.cambridgemun"
         },
-        "cordova-plugin-hockeyapp": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
         "cordova-plugin-customurlscheme": {
             "URL_SCHEME": "camun",
             "ANDROID_SCHEME": " ",
@@ -36,7 +33,7 @@
             "XWALK_VERSION": "21+",
             "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
             "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
-            "XWALK_MODE": "embedded",
+            "XWALK_MODE": "lite",
             "XWALK_MULTIPLEAPK": "true",
             "PACKAGE_NAME": "org.cambridgemun"
         }

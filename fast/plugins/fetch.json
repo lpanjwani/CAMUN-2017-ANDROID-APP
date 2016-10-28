@@ -47,14 +47,6 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-hockeyapp": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-hockeyapp@latest"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-customurlscheme": {
         "source": {
             "type": "registry",
@@ -71,6 +63,8 @@
             "id": "cordova-plugin-crosswalk-webview@2.1.0"
         },
         "is_top_level": true,
-        "variables": {}
+        "variables": {
+            "XWALK_MODE": "lite"
+        }
     }
 }

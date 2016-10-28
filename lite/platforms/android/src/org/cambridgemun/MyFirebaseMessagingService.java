@@ -1,4 +1,4 @@
-package org.cambridgemun;
+package org.cambridgemun.lite;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;

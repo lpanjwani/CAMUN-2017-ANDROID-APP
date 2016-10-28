@@ -19,6 +19,7 @@
     <icon src="www/images/logo.png" />
     <platform name="android">
         <preference name="android-minSdkVersion" value="16" />
+        <preference name="android-targetSdkVersion" value="23" />
     <allow-intent href="market:*" />
     </platform>
 </widget>

@@ -36,13 +36,9 @@
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <activity android:name="net.hockeyapp.android.FeedbackActivity" />
-        <activity android:name="net.hockeyapp.android.UpdateActivity" />
-        <activity android:name="net.hockeyapp.android.LoginActivity" />
     </application>
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 </manifest>
