@@ -22,9 +22,6 @@
         "cordova.plugins.diagnostic": {
             "PACKAGE_NAME": "org.cambridgemun"
         },
-        "cordova-plugin-hockeyapp": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
         "cordova-plugin-customurlscheme": {
             "URL_SCHEME": "camun",
             "ANDROID_SCHEME": " ",
