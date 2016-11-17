@@ -18,16 +18,26 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data android:host="www.cambridgemun.org" android:pathPrefix="/" android:scheme="https" />
-                <data android:host="www.cambridgemun.org" android:pathPrefix="/app" android:scheme="https" />
-                <data android:host="www.cambridgemun.org" android:pathPrefix="/landing" android:scheme="https" />
-                <data android:host="www.cambridgemun.org" android:pathPrefix="/People" android:scheme="https" />
-                <data android:host="www.cambridgemun.org" android:pathPrefix="/Pages" android:scheme="https" />
             </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
+            <intent-filter android:autoVerify="true">
+             <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:host=" " android:pathPrefix="/" android:scheme=" " />
+                <data
+                    android:host="www.cambridgemun.org"
+                    android:pathPrefix="/landing"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data
+                    android:host="www.cambridgemun.org"
+                    android:pathPrefix="/app"
+                    android:scheme="https" />
             </intent-filter>
         </activity>
         <service android:name=".MyFirebaseMessagingService">
@@ -44,7 +54,11 @@
             <intent-filter>
                 <action android:name="android.location.PROVIDERS_CHANGED" />
             </intent-filter>
-        </receiver>
+        </receiver><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
