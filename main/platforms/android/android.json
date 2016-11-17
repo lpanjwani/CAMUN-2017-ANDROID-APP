@@ -9,22 +9,6 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<allow-navigation href=\"cdvfile:*\" />",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         },
@@ -59,6 +43,18 @@
                         {
                             "xml": "<preference name=\"android-minSdkVersion\" value=\"16\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<allow-navigation href=\"cdvfile:*\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FileTransfer\"><param name=\"android-package\" value=\"org.apache.cordova.filetransfer.FileTransfer\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -67,16 +63,16 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 2
-                        },
-                        {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
                             "count": 1
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />",
                             "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 2
                         }
                     ],
                     "/manifest/application": [
@@ -111,22 +107,7 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
-        "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
-        "cordova.plugins.diagnostic": {
             "PACKAGE_NAME": "org.cambridgemun"
         },
         "cordova-plugin-customurlscheme": {
@@ -143,10 +124,38 @@
             "XWALK_MODE": "lite",
             "XWALK_MULTIPLEAPK": "true",
             "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "org.cambridgemun"
         }
     },
     "dependent_plugins": {},
     "modules": [
+        {
+            "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+            "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
+            "pluginId": "cordova-plugin-customurlscheme",
+            "clobbers": [
+                "window.plugins.launchmyapp"
+            ]
+        },
+        {
+            "id": "cordova.plugins.diagnostic.Diagnostic",
+            "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
+            "pluginId": "cordova.plugins.diagnostic",
+            "clobbers": [
+                "cordova.plugins.diagnostic"
+            ]
+        },
         {
             "id": "cordova-plugin-file.DirectoryEntry",
             "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
@@ -335,41 +344,15 @@
             "clobbers": [
                 "window.FileTransfer"
             ]
-        },
-        {
-            "id": "cordova-plugin-inappbrowser.inappbrowser",
-            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-            "pluginId": "cordova-plugin-inappbrowser",
-            "clobbers": [
-                "cordova.InAppBrowser.open",
-                "window.open"
-            ]
-        },
-        {
-            "id": "cordova.plugins.diagnostic.Diagnostic",
-            "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
-            "pluginId": "cordova.plugins.diagnostic",
-            "clobbers": [
-                "cordova.plugins.diagnostic"
-            ]
-        },
-        {
-            "id": "cordova-plugin-customurlscheme.LaunchMyApp",
-            "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
-            "pluginId": "cordova-plugin-customurlscheme",
-            "clobbers": [
-                "window.plugins.launchmyapp"
-            ]
         }
     ],
     "plugin_metadata": {
-        "cordova-plugin-compat": "1.0.0",
-        "cordova-plugin-file": "4.3.0",
-        "cordova-plugin-file-transfer": "1.6.0",
-        "cordova-plugin-inappbrowser": "1.5.0",
         "cordova-plugin-whitelist": "1.3.0",
-        "cordova.plugins.diagnostic": "3.2.2",
         "cordova-plugin-customurlscheme": "4.2.0",
-        "cordova-plugin-crosswalk-webview": "2.1.0"
+        "cordova-plugin-crosswalk-webview": "2.1.0",
+        "cordova.plugins.diagnostic": "3.3.2",
+        "cordova-plugin-compat": "1.1.0",
+        "cordova-plugin-file": "4.3.0",
+        "cordova-plugin-file-transfer": "1.6.0"
     }
 }

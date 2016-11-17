@@ -1,6 +1,22 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
+        "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+        "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
+        "pluginId": "cordova-plugin-customurlscheme",
+        "clobbers": [
+            "window.plugins.launchmyapp"
+        ]
+    },
+    {
+        "id": "cordova.plugins.diagnostic.Diagnostic",
+        "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
+        "pluginId": "cordova.plugins.diagnostic",
+        "clobbers": [
+            "cordova.plugins.diagnostic"
+        ]
+    },
+    {
         "id": "cordova-plugin-file.DirectoryEntry",
         "file": "plugins/cordova-plugin-file/www/DirectoryEntry.js",
         "pluginId": "cordova-plugin-file",
@@ -188,44 +204,18 @@ module.exports = [
         "clobbers": [
             "window.FileTransfer"
         ]
-    },
-    {
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
-        "id": "cordova.plugins.diagnostic.Diagnostic",
-        "file": "plugins/cordova.plugins.diagnostic/www/android/diagnostic.js",
-        "pluginId": "cordova.plugins.diagnostic",
-        "clobbers": [
-            "cordova.plugins.diagnostic"
-        ]
-    },
-    {
-        "id": "cordova-plugin-customurlscheme.LaunchMyApp",
-        "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
-        "pluginId": "cordova-plugin-customurlscheme",
-        "clobbers": [
-            "window.plugins.launchmyapp"
-        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-compat": "1.0.0",
-    "cordova-plugin-file": "4.3.0",
-    "cordova-plugin-file-transfer": "1.6.0",
-    "cordova-plugin-inappbrowser": "1.5.0",
     "cordova-plugin-whitelist": "1.3.0",
-    "cordova.plugins.diagnostic": "3.2.2",
     "cordova-plugin-customurlscheme": "4.2.0",
-    "cordova-plugin-crosswalk-webview": "2.1.0"
+    "cordova-plugin-crosswalk-webview": "2.1.0",
+    "cordova.plugins.diagnostic": "3.3.2",
+    "cordova-plugin-compat": "1.1.0",
+    "cordova-plugin-file": "4.3.0",
+    "cordova-plugin-file-transfer": "1.6.0"
 };
 // BOTTOM OF METADATA
 });

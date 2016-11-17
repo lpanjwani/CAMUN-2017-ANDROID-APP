@@ -1,5 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.cambridgemun" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.cambridgemun" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="LaunchMyApp">
+        <param name="android-package" value="nl.xservices.plugins.LaunchMyApp" />
+    </feature>
     <feature name="File">
         <param name="android-package" value="org.apache.cordova.file.FileUtils" />
         <param name="onload" value="true" />
@@ -8,23 +15,13 @@
     <feature name="FileTransfer">
         <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
     </feature>
-    <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-    </feature>
-    <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="LaunchMyApp">
-        <param name="android-package" value="nl.xservices.plugins.LaunchMyApp" />
-    </feature>
     <feature name="Diagnostic">
         <param name="android-package" value="cordova.plugins.Diagnostic" />
         <param name="onload" value="true" />
     </feature>
     <name>CAMUN 2017</name>
     <description>
-        Founded in 2008, CAMUN, organised by the Cambridge High School (Abu Dhabi), is one of the foremost MUN clubs in the UAE.
+        The Official Android Application for CAMUN Conference!
     </description>
     <author email="lavesh@cambridgemun.org" href="https://www.cambridgemun.org">
         Lavesh Panjwani

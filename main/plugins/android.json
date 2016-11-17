@@ -7,19 +7,7 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
-        "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "org.cambridgemun"
-        },
-        "cordova.plugins.diagnostic": {
             "PACKAGE_NAME": "org.cambridgemun"
         },
         "cordova-plugin-customurlscheme": {
@@ -36,10 +24,19 @@
             "XWALK_MODE": "lite",
             "XWALK_MULTIPLEAPK": "true",
             "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova.plugins.diagnostic": {
+            "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "org.cambridgemun"
         }
     },
     "dependent_plugins": {
         "cordova-plugin-compat": {
+            "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova-plugin-file": {
             "PACKAGE_NAME": "org.cambridgemun"
         }
     }

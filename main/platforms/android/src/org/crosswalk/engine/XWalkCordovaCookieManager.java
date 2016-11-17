@@ -48,6 +48,6 @@ class XWalkCordovaCookieManager implements ICordovaCookieManager {
     public void flush() {
         cookieManager.flushCookieStore();
     }
-};
+}
 
 
