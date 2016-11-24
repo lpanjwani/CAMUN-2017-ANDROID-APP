@@ -9,9 +9,10 @@
     <link rel="icon" href="https://cambridgemun.org/images/Favicon.png" sizes="30x30" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="import" href="https://www.polymer-project.org/0.5/components/paper-ripple/paper-ripple.html">
-  <link rel="import" href="https://www.polymer-project.org/components/core-icons/core-icons.html">
-  <link rel="import" href="https://www.polymer-project.org/components/font-roboto/roboto.html">
+        <script type="text/javascript" src="../cordova.js"></script> 
+		<script type="text/javascript" charset="utf-8">
+         console.log(cordova.file);
+    </script>	
   
 
 		
@@ -85,7 +86,6 @@ var STYLE_PREFIX = 'wsite';
 	})(window._W && _W.jQuery)
 //-->
 </script>
-		
 		
 	</head>
 	<body class="short-header-page page-has-banner  wsite-theme-light  wsite-page-unsc"><input type="checkbox" id="navTrigger" />
@@ -209,7 +209,7 @@ var STYLE_PREFIX = 'wsite';
 					
 						
 
-<div><div id="420374102981112136" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a onclick="window.open('/sdcard/CAMUN/UNSC.pdf', '_system');">   
+<div><div id="420374102981112136" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a onclick="window.open(cordova.file.externalRootDirectory + 'CAMUN/UNSC.pdf', '_system');">   
 <div class="button raised blue">
       <div class="center" fit>Study Guide</div>
       <paper-ripple fit></paper-ripple>
