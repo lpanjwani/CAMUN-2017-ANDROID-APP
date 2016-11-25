@@ -182,13 +182,13 @@ android {
     if (Boolean.valueOf(cdvBuildMultipleApks)) {
         productFlavors {
             armv7 {
-                versionCode defaultConfig.versionCode * 10 + 2
+                versionCode defaultConfig.versionCode * 10 + 4
                 ndk {
                     abiFilters "armeabi-v7a", ""
                 }
             }
             x86 {
-                versionCode defaultConfig.versionCode * 10 + 4
+                versionCode defaultConfig.versionCode * 10 + 2
                 ndk {
                     abiFilters "x86", ""
                 }
