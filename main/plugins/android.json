@@ -30,6 +30,9 @@
         },
         "cordova-plugin-file-transfer": {
             "PACKAGE_NAME": "org.cambridgemun"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "org.cambridgemun"
         }
     },
     "dependent_plugins": {

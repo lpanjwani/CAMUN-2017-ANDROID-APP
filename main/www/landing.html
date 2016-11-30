@@ -42,7 +42,7 @@ function onDeviceReady() {
     </script>
 
 </head><!--/head-->
-<body onload="onLoad(); downloadUNSC(); downloadHSC(); downloadSPECPOL(); downloadUNODC(); downloadECOSOC(); downloadUNSDG();">
+<body onload="onLoad();">
 
 	<!-- Page Loader -->
 	<div class="preloader">
@@ -340,12 +340,12 @@ Ann Maria Pius
          <div class="container">
         <div align="center">
 		<div class="portfolio-wrapper wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms">
-	<a href="Pages/ecosoc.html"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/ECOSOC.png"></a>
-        <a href="Pages/hsc.html" ><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/HSC.png"></a>
-        <a href="Pages/unsc.html" ><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/SC.png"></a>
-        <a href="Pages/specpol.html"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/SPECPOL.png"></a>
-        <a href="Pages/unodc.html"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/UNODC.png"></a>
-	<a href="Pages/unsdg.html"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/UNSDG.png"></a>
+	<a href="Pages/ecosoc.html" onclick="downloadECOSOC"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/ECOSOC.png"></a>
+        <a href="Pages/hsc.html" onclick="downloadHSC();"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/HSC.png"></a>
+        <a href="Pages/unsc.html" onclick="downloadUNSC();"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/SC.png"></a>
+        <a href="Pages/specpol.html" onclick="downloadSPECPOL();"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/SPECPOL.png"></a>
+        <a href="Pages/unodc.html" onclick="downloadUNODC();"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/UNODC.png"></a>
+	<a href="Pages/unsdg.html" onclick="downloadUNSDG();"><img class="col-lg-2 col-md-2 col-sm-4 col-xs-4" src="images/agenda/UNSDG.png"></a>
            			      
           </div>
 			
