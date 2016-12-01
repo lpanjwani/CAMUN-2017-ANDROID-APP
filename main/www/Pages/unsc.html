@@ -10,6 +10,25 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script type="text/javascript" src="../cordova.js"></script> 
+        	<script type="text/javascript" charset="utf-8">
+		function downloadUNSC() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjVzZLenRxcHpMZ3c");
+   var fileURL = cordova.file.externalRootDirectory + "CAMUN/UNSC.pdf";
+
+   fileTransfer.download(
+      uri,
+	  fileURL,
+	  function(entry) {
+			alert("Please note: You do not need to click the Download button again unless the study is not viewable!");
+	  },
+	  function(error) {
+		  alert("Error! Please Try Again Later!");
+	  }
+   );
+ }
+		</script> 
 		<script type="text/javascript" charset="utf-8">
          console.log(cordova.file);
     </script>	
@@ -209,17 +228,28 @@ var STYLE_PREFIX = 'wsite';
 					
 						
 
-<div><div id="420374102981112136" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a onclick="window.open(cordova.file.externalRootDirectory + 'CAMUN/UNSC.pdf', '_system');">   
+<div><div id="420374102981112136" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">  <a onclick="downloadUNSC();">   
 <div class="button raised blue">
-      <div class="center" fit>Study Guide</div>
+      <div class="center" fit>Download Study Guide</div>
+      <paper-ripple fit></paper-ripple>
+    </div>
+	</a> 
+  <a onclick="window.open(cordova.file.externalRootDirectory + 'CAMUN/UNSC.pdf', '_system');"> 
+   <div class="button raised green">
+      <div class="center" fit>View Study Guide</div>
       <paper-ripple fit></paper-ripple>
     </div>
 </a>
+
+<br>
+<br>
+
 <a href="mailto:unsc@cambridgemun.org" target="_top">
-				  <div class="button raised green">
+				  <div class="button raised blue">
      				  <div class="center" fit style="text-decoration:none">EMAIL</div>
       				  <paper-ripple fit></paper-ripple>
-    				  </div> </a>    </div>
+    				  </div> </a>
+    				  </div>
 
 
 

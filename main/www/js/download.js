@@ -45,7 +45,7 @@ function downloadUNODC() {
 function downloadECOSOC() {
 
    var fileTransfer = new FileTransfer();
-   var uri = encodeURI("https://drive.google.com/uc?export=download&id=ID_HERE");
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjd1hidzN6MDI1emM");
    var fileURL = cordova.file.externalRootDirectory + "CAMUN/ECOSOC.pdf";
 
    fileTransfer.download(
@@ -62,4 +62,8 @@ function downloadUNSDG() {
    fileTransfer.download(
       uri, fileURL
    )
+}
+
+function downloadFinishedAlert() {
+	alert("Downloading Finished! You do not need to click this button again unless Study Guides are not viewable!"
 }

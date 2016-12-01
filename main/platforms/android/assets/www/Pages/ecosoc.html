@@ -9,8 +9,27 @@
     <link rel="icon" href="https://cambridgemun.org/images/Favicon.png" sizes="30x30" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-	<script type="text/javascript" charset="utf-8" src="../cordova.js"></script> 	
+       
+	<script type="text/javascript" charset="utf-8" src="../cordova.js"></script> 
+	<script type="text/javascript" charset="utf-8">
+		function downloadECOSOC() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjd1hidzN6MDI1emM");
+   var fileURL = cordova.file.externalRootDirectory + "CAMUN/ECOSOC.pdf";
+
+    fileTransfer.download(
+      uri,
+	  fileURL,
+	  function(entry) {
+			alert("Please note: You do not need to click the Download button again unless the study is not viewable!");
+	  },
+	  function(error) {
+		  alert("Error! Please Try Again Later!");
+	  }
+   );
+ }
+		</script> 	
 	<script type="text/javascript" charset="utf-8">
          console.log(cordova.file);
     </script>
@@ -208,18 +227,29 @@ var STYLE_PREFIX = 'wsite';
 					
 						
 
-<div><div id="116557707733168918" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><a onclick="window.open(cordova.file.externalRootDirectory + 'CAMUN/ECOSOC.pdf', '_system');"> 
-   <div class="button raised blue">
-      <div class="center" fit>Coming Soon!</div>
+<div><div id="116557707733168918" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
+   <a onclick="downloadECOSOC();">   
+<div class="button raised blue">
+      <div class="center" fit>Download Study Guide</div>
+      <paper-ripple fit></paper-ripple>
+    </div>
+	</a> 
+  <a onclick="window.open(cordova.file.externalRootDirectory + 'CAMUN/ECOSOC.pdf', '_system');"> 
+   <div class="button raised green">
+      <div class="center" fit>View Study Guide</div>
       <paper-ripple fit></paper-ripple>
     </div>
 </a>
 
+<br>
+<br>
+
 <a href="mailto:ecosoc@cambridgemun.org" target="_top">
-				  <div class="button raised green">
+				  <div class="button raised blue">
      				  <div class="center" fit style="text-decoration:none">EMAIL</div>
       				  <paper-ripple fit></paper-ripple>
-    				  </div> </a>  </div>
+    				  </div> </a> 
+    				   </div>
 
 
 
