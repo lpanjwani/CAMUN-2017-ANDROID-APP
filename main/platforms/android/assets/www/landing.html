@@ -24,12 +24,8 @@
 	<link href="css/responsive.css" rel="stylesheet">
 	<link href="css/material.css" rel="stylesheet">
 	
-<!-- Facebook -->
-<meta property="og:title" content="Cambridge Model United Nations" />
-<meta property="og:url" content="https://cambridgemun.org/landing" />
-<meta property="og:image" content="https://cambridgemun.org/images/Banner" />  
-<meta property="og:description" content="Founded in 2008, CAMUN, organised by the Cambridge High School (Abu Dhabi), is one of the foremost MUN clubs in the UAE." />  
-<meta property="fb:pages" content="158756817581741" />
+   
+    <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" charset="utf-8">
 
 function onLoad() {
@@ -39,7 +35,77 @@ function onLoad() {
 function onDeviceReady() {
         console.log(cordova.file);
     }
-    </script>
+
+function downloadUNSC() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjVzZLenRxcHpMZ3c");
+   var fileURL = cordova.file.externalRootDirectory + "CAMUN/UNSC.pdf";
+
+  fileTransfer.download(
+      uri, fileURL
+   )
+}
+
+function downloadHSC() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjX2JhQUZpWERBMjA");
+   var fileURL = cordova.file.externalRootDirectory + "CAMUN/HSC.pdf";
+
+   fileTransfer.download(
+      uri, fileURL
+   )
+}
+
+function downloadSPECPOL() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjMldJbVdKRHdJa00");
+   var fileURL = cordova.file.externalRootDirectory + "CAMUN/SPECPOL.pdf";
+
+   fileTransfer.download(
+      uri, fileURL
+   )
+}
+
+function downloadUNODC() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjc21YWThwMjlKdFk");
+   var fileURL = cordova.file.externalRootDirectory + "CAMUN/UNODC.pdf";
+
+   fileTransfer.download(
+      uri, fileURL
+   )
+}
+
+function downloadECOSOC() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjd1hidzN6MDI1emM");
+   var fileURL = cordova.file.externalRootDirectory + "CAMUN/ECOSOC.pdf";
+
+   fileTransfer.download(
+      uri, fileURL
+   )
+}
+
+function downloadUNSDG() {
+
+   var fileTransfer = new FileTransfer();
+   var uri = encodeURI("https://drive.google.com/uc?export=download&id=0B7aGtoVDrZVjc3BSR29WcG53ZkE");
+   var fileURL = cordova.file.externalRootDirectory + "CAMUN/UNSDG.pdf";
+
+   fileTransfer.download(
+      uri, fileURL
+   )
+}
+
+function downloadFinishedAlert() {
+	alert("Downloading Starting..... Please Allow 1-2 minutes for downloading. You do not need to click the Download button again unless Study Guides are not viewable!")
+}
+	</script> 		
 
 </head><!--/head-->
 <body onload="onLoad();">
@@ -73,7 +139,7 @@ function onDeviceReady() {
                         <li class="scroll"><a href="#recent-works">Agenda</a></li>  
 			<li class="scroll"><a href="#promo-two">CAMUNication</a></li> 
                         <li class="scroll"><a href="#clients">Sponsors</a></li>  
-                        <li class="scroll"><a href="#news-letter">Registration</a></li>
+                        <li class="scroll"><a href="#news-letter">Directions</a></li>
 			<li class="scroll"><a href="#contact-us">Contact Us</a></li>                                               
                          
                        
@@ -339,7 +405,7 @@ Ann Maria Pius
 		</div>
          <div class="container">
         <div align="center">
-           <a onclick="downloadECOSOC();downloadUNSC();downloadUNSC();downloadSPECPOL();downloadUNODC();downloadUNSDG();downloadFinishedAlert();" target="_blank"> <div class="button raised one">
+           <a onclick="downloadECOSOC();downloadUNSC();downloadHSC();downloadSPECPOL();downloadUNODC();downloadUNSDG();downloadFinishedAlert();"> <div class="button raised one">
       <div class="center" fit>Download Study Guides</div>
       <paper-ripple fit></paper-ripple>
     </div></a>	
@@ -411,22 +477,22 @@ Ann Maria Pius
 				<div class="col-sm-8 col-sm-offset-2">
 					<div class="text-center wow fadeInDown" data-wow-duration="700ms" data-wow-delay="300ms">
 
-				<h1>Registration</h1>
-					  <p>Head over to the link to register now!<br>Requires Internet Connection!<br>Not for TCHS Students!</p>
+				<h1>Directions</h1>
+					  <p>For your convience on the conference day! Your Welcome!</p>
 			</div>
                     <div class="news-letter wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
-						<form id="newsletter" onclick="window.open('https://drive.google.com/file/d/0B7aGtoVDrZVjdnVwQ2RLc0dDOG8/view?usp=sharing', '_self', 'location=no');">
+						<form id="newsletter">
 							
-<button type="button" class="btn btn-submit" onclick="window.open('https://drive.google.com/file/d/0B7aGtoVDrZVjdnVwQ2RLc0dDOG8/view?usp=sharing', '_self', 'location=no');">Guidelines</button>
+<button type="button" class="btn btn-submit" onclick="window.open('https://showtheway.io/to/24.346334,54.530532?name=The%20Cambridge%20High%20School','_system')">Uber</button>
 						</form>
-					</div>                                                                                          
+					</div>       
+                         <div class="news-letter wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
+						<form id="newsletter">
+							
+<button type="button" class="btn btn-submit" onclick="window.open('https://goo.gl/maps/BfpPRvCxRbR2', '_system')">Maps</button>
+						</form>
+					</div>                                                                                                                      
                                                                                                             
-					<div class="news-letter wow fadeInUp" data-wow-duration="700ms" data-wow-delay="500ms">
-						<form id="newsletter" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfvRRBbQW8esZp9sCFQOYd7gxA_xi2pwRwOGgEZPlySdwT3gg/viewform?c=0&w=1&hl=en', '_self', 'location=no');">
-							
-<button type="button" class="btn btn-submit" onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfvRRBbQW8esZp9sCFQOYd7gxA_xi2pwRwOGgEZPlySdwT3gg/viewform?c=0&w=1&hl=en', '_self', 'location=no');">Delegation Form</button>
-						</form>
-					</div>
                     
                 
 						</form>
@@ -510,8 +576,7 @@ Ann Maria Pius
 		  <p>&copy; 2016 Cambridge Model United Nations</p>
 <p>&copy; Designed & Developed by Lavesh Panjwani</p>
 </div>
-<!--/#scripts--> 
-    <script type="text/javascript" src="js/deviceready.js"></script>  
+<!--/#scripts-->  
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>	
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
@@ -526,8 +591,6 @@ Ann Maria Pius
 	<script type="text/javascript" src="js/canvas.js"></script>
 	<script type="text/javascript" src="js/preloader.js"></script>
     <script type="text/javascript" src="js/main.js"></script>    
-     <script type="text/javascript" src="cordova.js"></script>
-     <script type="text/javascript" src="js/download.js"></script> 
                                                     
 <script src='https://codepen.io/assets/libs/fullpage/jquery.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js'></script>
@@ -535,18 +598,6 @@ Ann Maria Pius
 <script src="js/prefixfree.min.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Organization",
-  "name" : "Cambridge Model United Nations",
-  "url" : "http://www.cambridgemun.org",
-  "sameAs" : [
-    "http://www.facebook.com/camunuauh",
-    "http://www.twitter.com/camunauh",
-    "http://youtube.com/camunauh"
-  ]
-}
-</script>
+
 </body>
 </html>

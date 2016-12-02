@@ -182,13 +182,13 @@ android {
     if (Boolean.valueOf(cdvBuildMultipleApks)) {
         productFlavors {
             armv7 {
-                versionCode defaultConfig.versionCode * 10 + 4
+                versionCode defaultConfig.versionCode * 10 + 2
                 ndk {
                     abiFilters "armeabi-v7a", ""
                 }
             }
             x86 {
-                versionCode defaultConfig.versionCode * 10 + 2
+                versionCode defaultConfig.versionCode * 10 + 4
                 ndk {
                     abiFilters "x86", ""
                 }
@@ -255,14 +255,14 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile project(path: "CordovaLib", configuration: "debug")
     releaseCompile project(path: "CordovaLib", configuration: "release")
-    compile "com.android.support:support-v4:+"
-    compile "com.android.support:appcompat-v7:+"
+    compile "com.android.support:support-v4:25.0.1"
+    compile "com.android.support:appcompat-v7:25.0.1"
     // SUB-PROJECT DEPENDENCIES END
-    compile 'com.android.support:support-v4:23.4.0'
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    compile 'com.google.android.gms:play-services-appindexing:9.8.0'
-    compile 'com.google.firebase:firebase-messaging:9.8.0'
-    compile 'com.google.firebase:firebase-crash:9.8.0'
+    compile 'com.android.support:support-v4:25.0.1'
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.google.firebase:firebase-core:10.0.1'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
+    compile 'com.google.firebase:firebase-crash:10.0.1'
 }
 
 def promptForReleaseKeyPassword() {
