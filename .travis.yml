@@ -27,6 +27,7 @@ sudo: false
 branches:
   only:
   - master
+  - lite(depreciated)
 
 install:
   - nvm install $nodejs_version
